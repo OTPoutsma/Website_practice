@@ -36,7 +36,16 @@ h1, h2, h3, h4 {
   line-height: 1.15;
   margin: 0 0 .5em;
 }
-h1 { font-size: clamp(2rem, 7vw, 3.4rem); letter-spacing: -.01em; }
+h1 { font-size: clamp(2.3rem, 10vw, 4.2rem); letter-spacing: -.01em; margin-bottom: .2em; }
+.h1__klein {
+  display: block; margin-bottom: .15em;
+  font-family: var(--tekst); font-weight: 700; font-size: 1rem;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--petrol);
+}
+.ondertitel {
+  font-family: var(--kop); font-weight: 600;
+  font-size: clamp(1.25rem, 4vw, 1.7rem); line-height: 1.25; margin-bottom: .6em;
+}
 h2 { font-size: clamp(1.6rem, 5vw, 2.3rem); }
 h3 { font-size: 1.2rem; font-weight: 600; }
 h4 { font-size: 1.15rem; font-weight: 600; }
