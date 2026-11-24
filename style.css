@@ -143,8 +143,8 @@ a:hover { text-decoration-thickness: 2px; }
 /* Diensten als lijst */
 .subkop {
   font-family: var(--kop); font-weight: 600;
-  font-size: clamp(1.15rem, 3.5vw, 1.4rem); line-height: 1.3;
-  color: var(--petrol); max-width: 40em; margin: -.2em 0 1.2em;
+  font-size: clamp(1.05rem, 3vw, 1.2rem); line-height: 1.3;
+  color: var(--inkt); max-width: 40em; margin: -.2em 0 1.2em;
 }
 .diensten { margin: 0; display: grid; gap: 0; }
 .diensten > div { padding: 16px 0; border-bottom: 2px solid rgba(35, 48, 58, .15); }
